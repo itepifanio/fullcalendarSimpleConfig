@@ -1,0 +1,26 @@
+{
+  "name": "fullcalendarsimpleconfig",
+  "version": "1.0.0",
+  "description": "Simples example of usage of fullcalendar",
+  "main": "index.js",
+  "dependencies": {
+    "fullcalendar": "^3.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itepifanio/fullcalendarSimpleConfig.git"
+  },
+  "keywords": [
+    "fullcalendar"
+  ],
+  "author": "Ítalo Epifânio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itepifanio/fullcalendarSimpleConfig/issues"
+  },
+  "homepage": "https://github.com/itepifanio/fullcalendarSimpleConfig#readme"
+}
