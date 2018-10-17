@@ -4,11 +4,17 @@
   "description": "Simples example of usage of fullcalendar",
   "main": "index.js",
   "dependencies": {
-    "fullcalendar": "^3.9.0"
+    "fullcalendar": "^3.9.0",
+    "jquery": "^3.3.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack": "^4.21.0",
+    "webpack-cli": "^3.1.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "clean": "rm -rf ./dist"
   },
   "repository": {
     "type": "git",
