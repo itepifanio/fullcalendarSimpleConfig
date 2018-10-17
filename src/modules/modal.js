@@ -6,7 +6,7 @@ function modal() {
 
   calendar.on('dayClick', function(date, jsEvent, view) {
     // Pôr um modal depois
-    alert('Clicado em ' + date.format());
+    console.log('Clicado em ' + date.format());
   });
 }
 
