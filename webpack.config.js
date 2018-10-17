@@ -1,15 +1,15 @@
 const path = require('path')
 
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+    index: './src/index.js',
+    modal: './src/modules/modal.js'
+  },
   output: {
-    filename: 'index.js',
+    filename: '[name].js',
     path: path.join(__dirname, 'dist')
   },
   externals: {
-    // shows how we can rely on browser globals instead of bundling these dependencies,
-    // in case we want to access jQuery from a CDN or if we want an easy way to
-    // avoid loading all moment locales: https://github.com/moment/moment/issues/1435
     jquery: 'jQuery',
     moment: 'moment'
   },
