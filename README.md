@@ -1,5 +1,12 @@
 # fullcalendarSimpleConfig
-Example of usage of custom year date fullcalendar
+Exemplo básico de uso customizado do fullcalendar
+
+## Funcionalidades
+ - Visualizações em mês, semana e dia
+ - Clicando em um dia do mês muda-se a visualização para o dia
+ - Adiciona-se e remove-se dinamicamente eventos ao calendário  
+
+## Visualização
 
 ## Rodando
 
@@ -8,5 +15,4 @@ Example of usage of custom year date fullcalendar
 ` npm run build `
 
 ` npm run watch `
-
 

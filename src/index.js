@@ -4,7 +4,7 @@ import {modal} from './modules/modal';
 import {addEvent} from './modules/addEvent';
 import {removeEvent} from './modules/removeEvent';
 
-$(function () {
+$(document).ready(function () {
     var containerEl = $('#calendar');
 
     containerEl.fullCalendar({
@@ -12,6 +12,9 @@ $(function () {
         hiddenDays: [0],
         locale: 'pt-br',
         slotLabelFormat: 'HH:mm',
+        views: {
+            week: { columnHeaderFormat: 'ddd D/M' }
+        },
         editable: true,
         allDaySlot: false,
         slotDuration: '00:15:00',
