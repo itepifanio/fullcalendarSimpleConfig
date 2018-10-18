@@ -5,7 +5,7 @@ function addEvent(containerEl, start, end, jsEvent, view) {
         newEvent.title = 'Colocar o nome da disciplina aqui';
         newEvent.start = moment(start).format();
         newEvent.allDay = false;
-        containerEl.fullCalendar('renderEvent', newEvent);
+        containerEl.fullCalendar('renderEvent', newEvent, true);
     }
 }
 
