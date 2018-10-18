@@ -3,6 +3,10 @@ Exemplo básico de uso customizado do fullcalendar
 
 ## Bug
 
+When I inicialize the calendar I see the agenda view, but when I add some events and change the agenda view to other view, then the events aren't load.
+
+This just happen on the first interaction, after that the events are rendered just fine.
+
 ![bugCalendar](img/bug.gif)
 
 ## Funcionalidades
