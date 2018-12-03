@@ -1,7 +1,7 @@
 # fullcalendarSimpleConfig
 Exemplo básico de uso customizado do fullcalendar
 
-![calendario](img/calendario.gif)
+![calendario](img/calendar.gif)
 
 ## Funcionalidades
  - Visualizações em mês, semana e dia
